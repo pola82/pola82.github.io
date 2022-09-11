@@ -1,14 +1,35 @@
 body {
   background-color:white;
 }
+ 
+.wrap{
+
+
+}
 
 .wrap-texto{
-text-align: center;
-
 
 }
-
-.wrap{
-  background-position:center;
-  background:no-repeat;
+.content, .margarita, .container {
+  padding-left: 10%;
 }
+
+#examplebox{  /*padre*/
+   display: flex; 
+   justify-content: center;
+    width: 100%;
+  }
+#box1{
+
+  margin-left: 5%;
+}
+#box2{
+  margin-top: 6%;
+}
+
+
+#box3{
+  margin-top: 7%;
+  margin-right: 10%;
+}
+ 
