@@ -2,16 +2,12 @@ body {
   background-color:white;
 }
  
-.wrap{
-
-
-}
-
-.wrap-texto{
-
-}
 .content, .margarita, .container {
   padding-left: 10%;
+}
+.wrap-texto{
+  text-align: center;
+
 }
 
 #examplebox{  /*padre*/
@@ -31,5 +27,31 @@ body {
 #box3{
   margin-top: 7%;
   margin-right: 10%;
+}
+
+
+a {
+  text-decoration: none; 
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 14px 10px
+}
+ul{
+  padding: 14px
+}
+li{
+  list-style: none; 
+  display: inline;
+}
+li a{
+  background:blue; 
+  color:#d4d4d4;
+}
+li a:hover{
+  background: #4da4ff; 
+  color:#fff;}
+.navi{
+  background: #222; 
+  height: 50px
 }
  
