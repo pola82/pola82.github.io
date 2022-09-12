@@ -1,14 +1,20 @@
+/* this is all the background*/
 body {
   background-color:white;
 }
- 
+ /* this part belong to index.html*/
 .content, .margarita, .container {
   padding-left: 10%;
 }
 .wrap-texto{
   text-align: center;
-
 }
+.home{
+  margin-right: 4%;
+}
+/* untill here*/
+
+/* from this part starts technical blog*/
 
 #examplebox{  /*padre*/
    display: flex; 
@@ -23,13 +29,17 @@ body {
   margin-top: 6%;
 }
 
-
 #box3{
   margin-top: 7%;
   margin-right: 10%;
 }
 
+/* untill here*/
 
+/* this part belong to core-blog*/
+.core{
+  margin-left:40%;
+}
 a {
   text-decoration: none; 
   font-size: 20px;
@@ -46,12 +56,33 @@ li{
 li a{
   background:blue; 
   color:#d4d4d4;
+  border-radius: 20px;
 }
 li a:hover{
   background: #4da4ff; 
-  color:#fff;}
-.navi{
-  background: #222; 
-  height: 50px
+  color:#fff;
 }
+
+.links{
+  background:#fff; 
+  height: 50px;
+  margin-left: 30%;
+}
+
+/* until here */
  
+/* from this part stars my core technical*/
+
+#technical-blog{
+  margin-left: 41%;
+}
+#topic-one{
+  /*background:#fff; 
+  height: 50px;*/
+  margin-left: 28%;
+
+}
+
+  
+
+
