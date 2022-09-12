@@ -88,7 +88,7 @@ li a:hover{
 }
 
 p{
-  margin-left: 10%;
+  margin-left: 2%;
 }
 
  #diego{
@@ -96,6 +96,11 @@ p{
  } 
 
  .value{
+  margin-left: 40%;
+ }
+
+ #plan {
+
   margin-left: 40%;
  }
 
