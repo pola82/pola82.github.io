@@ -2,6 +2,12 @@
 body {
   background-color:white;
 }
+@media screen and (max-width: 500px) {
+  body {
+    background-color:lightgreen;
+  }
+ }
+
  /* this part belong to index.html*/
 .content, .margarita, .container {
   padding-left: 10%;
@@ -38,7 +44,10 @@ body {
 
 /* this part belong to core-blog*/
 .core{
-  margin-left:40%;
+  margin-left:42%;
+}
+#core-topic{
+  margin-left: 42%;
 }
 a {
   text-decoration: none; 
@@ -54,20 +63,24 @@ li{
   display: inline;
 }
 li a{
-  background:blue; 
-  color:#d4d4d4;
+  background:aquamarine; 
+  color:#e9bd15;
   border-radius: 20px;
 }
 li a:hover{
   background: #4da4ff; 
-  color:#fff;
+  color:white;
 }
 
 .links{
-  background:#fff; 
+  background:#e9bd15; 
   height: 50px;
-  margin-left: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 31%;
+
 }
+
 
 /* until here */
  
@@ -103,12 +116,10 @@ p{
 
   margin-left: 40%;
  }
-
- @media screen and (max-width: 500px) {
-  body {
-    background-color: lightgreen;
-  }
-}
+/* emotional intelligence from here*/
+ #emotion {
+  margin-left: 40%;
+ }
 
 
 
