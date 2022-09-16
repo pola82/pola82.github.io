@@ -121,5 +121,11 @@ p{
   margin-left: 40%;
  }
 
-
-
+ 
+ @media screen and (min-width: 200px) {
+  .home {width: 100px; float: left;}
+ }
+ .home {
+  float: none;
+  width: auto;
+}
