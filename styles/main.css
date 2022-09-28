@@ -72,12 +72,11 @@ li a:hover{
   color:white;
 }
 
-.links{
-  background:#e9bd15; 
+.links{ 
   height: 50px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-left: 31%;
+  padding-left: 31%
 
 }
 
@@ -100,9 +99,9 @@ li a:hover{
   margin-left: 2%;
 }
 
-p{
+/*p{
   margin-left: 2%;
-}
+}*/
 
  #diego{
   margin-left:27%;
@@ -129,3 +128,8 @@ p{
   float: none;
   width: auto;
 }
+/* title of problem solving h1*/
+#pro, #html{
+  margin-left:42%;
+}
+
